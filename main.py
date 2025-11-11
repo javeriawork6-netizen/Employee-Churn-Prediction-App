@@ -36,6 +36,5 @@ if st.button('Predict'):
     prediction = predict_churn(input_data)[0]
     translation_dict = {"Yes": "Expected", "No": "Not Expected"}
     prediction_translate = translation_dict.get(prediction)
-    st.write(f'The Prediction is **{prediction}**, Hence customer is **{prediction_translate}** to churn.')
-
+    st.write(f'The Prediction is **{prediction}**
 st.subheader('Developed by Javeria Anwar')
